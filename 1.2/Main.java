@@ -53,7 +53,48 @@ public class Main {
         System.out.println(ivan + "\n" + peter + "\n" + boris);
     }
 
+    public static void fourth(){
+        Worker p = new Worker("Петров", "IT");
+        Worker k = new Worker("Козлов", p.dept);
+        Worker s = new Worker("Сидоров", p.dept);
+
+        p.dept.head = k;
+
+        System.out.println(p + "\n" + k + "\n" + s);
+    }
+
+    public static void fifth(){
+        Comment com1 = new Comment(5, "something");
+        com1.subcomm = new Comment(10, "hhh");
+        com1.subcomm.subcomm = new Comment(-222, "erunda");
+
+        System.out.println(com1);
+    }
+
+    public static void sixth(){
+        Album kuk = new Album("Кукловод", "Металлов");
+        Album oop = new Album("Шоссе к ООП", "Асид");
+
+        Song sost = new Song("Состояние объектов");
+        sost.coAuthors = new String[1];
+        sost.coAuthors[0] = "Янг";
+
+        Song songoop = new Song("Шоссе к ООП");
+
+        Song onep = new Song("Одноразовый программист");
+        onep.coAuthors = new String[1];
+        onep.coAuthors[0] = "Бертон";
+
+        sost.album = oop;
+        songoop.album = oop;
+        onep.album = kuk;
+
+        System.out.println(sost + "\n" + songoop + "\n" + onep + "\n");
+
+
+    }
+
     public static void main(String[] args) {
-        third();
+        sixth();
     }
 }
