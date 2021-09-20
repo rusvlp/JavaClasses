@@ -32,7 +32,28 @@ public class Main {
 
     }
 
+    public static void second(){
+        Human[] hs = new Human[3];
+        hs[0] = new Human("Клеопатра", 152, "f");
+        hs[1] = new Human("Алексндр", "Пушкин", "Сергеевич", 167, "m");
+        hs[2] = new Human("Владимир", "Маяковский", 189, "m");
+
+        for(Human h: hs)
+            System.out.println(h);
+    }
+
+    public static void third(){
+        Human ivan = new Human("Иван", "Чудов", "m");
+        Human peter = new Human("Петр", "Чудов", "m");
+        Human boris = new Human("Борис", "m");
+
+        peter.setFather(ivan);
+        boris.setFather(peter);
+
+        System.out.println(ivan + "\n" + peter + "\n" + boris);
+    }
+
     public static void main(String[] args) {
-        first();
+        third();
     }
 }

@@ -20,6 +20,6 @@ public class Name {
     }
 
     public String toString(){
-        return (first == null ? "" : first) + " " +  (mid == null ? "" : mid) + " " + (last == null ? "" : last);
+        return (first == null ? "" : first + " ")  +  (mid == null ? "" : mid + " ") + (last == null ? "" : last);
     }
 }
