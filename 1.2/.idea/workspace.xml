@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5b30490-01e7-42b3-9716-75bd6f81310e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ege" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -79,6 +75,7 @@
       <workItem from="1632073691132" duration="42000" />
       <workItem from="1632073750497" duration="10264000" />
       <workItem from="1632134858798" duration="7434000" />
+      <workItem from="1632321261241" duration="333000" />
     </task>
     <servers />
   </component>
