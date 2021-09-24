@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-16.0.1/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yMuQOG191sNke3aaVtZjYERZnc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,11 +77,24 @@
       <workItem from="1632073761452" duration="4000" />
       <workItem from="1632375075879" duration="147000" />
       <workItem from="1632375225809" duration="24000" />
-      <workItem from="1632375294710" duration="21642000" />
+      <workItem from="1632375294710" duration="24869000" />
+      <workItem from="1632502138019" duration="1164000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
