@@ -16,7 +16,7 @@ public class Comment {
         else return "(" + rate + ")" + " " + text + "\n" + subcomm.toString(1);
     }
 
-    public String toString(int lvl){
+    private String toString(int lvl){
         String level = "";
         for (int i = 0; i<lvl; i++) level += "---";
         return level + "(" + rate + ")" + text + (subcomm != null ? "\n" + subcomm.toString(lvl+1) : "");

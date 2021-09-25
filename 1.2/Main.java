@@ -95,6 +95,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        sixth();
+        Human h = new HumanBuilder().setName("Иван", "Иванов", "Иванович").setHeight(174).setSex("m").getHuman();
+
+        System.out.println(h);
     }
 }

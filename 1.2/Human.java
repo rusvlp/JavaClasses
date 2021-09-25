@@ -6,6 +6,8 @@ public class Human {
     private Human father;
     private String sex;
 
+    public Human(){}
+
     public Human(Name name, String sex){
         this.name = name;
         this.sex = sex;
@@ -50,7 +52,9 @@ public class Human {
             throw new IllegalArgumentException(height + " is not a legal argument");
     }
 
-
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     public int getHeight(){
         return this.height;
@@ -85,5 +89,5 @@ public class Human {
     }
 
 
-
 }
+

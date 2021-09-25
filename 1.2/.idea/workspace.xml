@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5b30490-01e7-42b3-9716-75bd6f81310e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1.3/Polyline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/Polyline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.2/com/company/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +96,8 @@
       <workItem from="1632073750497" duration="10264000" />
       <workItem from="1632134858798" duration="7434000" />
       <workItem from="1632321261241" duration="333000" />
+      <workItem from="1632542921472" duration="62000" />
+      <workItem from="1632543011304" duration="5965000" />
     </task>
     <servers />
   </component>

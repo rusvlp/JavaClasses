@@ -1,11 +1,39 @@
 package com.company;
-import javax.tools.JavaCompiler;
-import java.io.File;
-import java.sql.SQLOutput;
+
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.List;
+
 
 public class Main {
+
+    public static void fifth(){
+
+    }
+
+    public static void fourth(){
+        Album kuk = new Album("Кукловод", "Металлов");
+        Album oop = new Album("Шоссе к ООП", "Асид");
+
+        Song sost = new Song("Состояние объектов");
+        sost.coAuthors = new String[1];
+        sost.coAuthors[0] = "Янг";
+
+        Song songoop = new Song("Шоссе к ООП");
+
+        Song onep = new Song("Одноразовый программист");
+        onep.coAuthors = new String[1];
+        onep.coAuthors[0] = "Бертон";
+
+        sost.album = oop;
+        songoop.album = oop;
+        onep.album = kuk;
+
+        oop.addSong(sost, songoop);
+        kuk.addSong(onep);
+
+        for (Song s: sost.album.tracks)
+            System.out.println(s);
+    }
 
     public static void third(){
         City[] cities = new City[6];
@@ -26,11 +54,15 @@ public class Main {
         Road ed = roads[6] = new Road(e, d, 2);
         Road cd = roads[7] = new Road(c, d, 4);
 
-        for (int i = 0; i<cities.length; i++){
+     /*   for (int i = 0; i<cities.length; i++){
             cities[i].setUnknownRoads(roads);
             System.out.println(cities[i]);
-        }
+        } */
 
+        for (City ct: cities){
+            ct.setUnknownRoads(roads);
+            System.out.println(ct);
+        }
 
     }
 
@@ -63,8 +95,9 @@ public class Main {
     }
 
 
+
     public static void main(String[] args) {
-        third();
+        fifth();
 
     }
 

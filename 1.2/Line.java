@@ -13,6 +13,10 @@ public class Line {
         this(new Point(xs, ys), new Point(xe, ye));
     }
 
+    public double length(){
+        return Math.sqrt((end.x-start.x) * (end.x-start.x) + (end.y-start.y) * (end.y-start.y));
+    }
+
     public String toString(){
         return "Line from " + start + " to " + end;
     }

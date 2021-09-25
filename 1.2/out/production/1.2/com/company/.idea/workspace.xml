@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5b30490-01e7-42b3-9716-75bd6f81310e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1yMuH3TseuWl0sVPu4i5iUhMjuM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -33,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ege" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -68,7 +76,10 @@
       <updated>1632073689298</updated>
       <workItem from="1632073691132" duration="42000" />
       <workItem from="1632073750497" duration="10264000" />
-      <workItem from="1632134858798" duration="2692000" />
+      <workItem from="1632134858798" duration="7434000" />
+      <workItem from="1632321261241" duration="333000" />
+      <workItem from="1632542921472" duration="62000" />
+      <workItem from="1632543011304" duration="2002000" />
     </task>
     <servers />
   </component>
