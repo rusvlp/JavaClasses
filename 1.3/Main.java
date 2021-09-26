@@ -7,7 +7,21 @@ import java.util.List;
 public class Main {
 
     public static void fifth(){
+        Publication p = new PublicationBuilder().setName("История транзистора").setRate(10).setTags("история", "it", "электроника").setText("Дорога к твердотельным переключателям была долгой. \n" +
+                "Она началась с открытия того, что определенные \n" +
+                "материалы странно ведут себя в присутствии \n" +
+                "электричества. В 1874 году Фердинанд Браун \n" +
+                "опубликовал статью “О прохождении электрических \n" +
+                "токов через сульфиды металлов”. И все завертелось…\n").setComments(new Comment(1, "Держите ссылку на то как работают светодиоды из \n" +
+                "карбида кремния ввв.свет.ру"), new Comment(0, "Это перевод? Пойду оригинал почитаю"), new Comment(5, "Какую только дичь не писали в журналах 20-30гг \n" +
+                "пытаясь объяснить работу кристаллического детектора\n")).getPub();
+        p.comments.get(0).addSubcomms(new Comment(0, "Спасибо"), new Comment(0, "Thanks!"));
+        p.comments.get(1).addSubcomms(new Comment(0," а где ссылка на оригинал?"));
+        p.comments.get(1).subcomms.get(0).addSubcomms(new Comment(3, " автор, добавь ссылку в начало статьи"));
 
+
+
+        System.out.println(p);
     }
 
     public static void fourth(){
