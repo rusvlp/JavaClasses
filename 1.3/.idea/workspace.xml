@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Polyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Polyline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/out/production/1.2/com/company/Time.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,9 +29,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-16.0.1/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yMuQOG191sNke3aaVtZjYERZnc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,6 +79,7 @@
       <workItem from="1632375294710" duration="24869000" />
       <workItem from="1632502138019" duration="1760000" />
       <workItem from="1632542986240" duration="6011000" />
+      <workItem from="1632595889536" duration="3198000" />
     </task>
     <servers />
   </component>
