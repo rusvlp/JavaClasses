@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -84,6 +88,11 @@
       <workItem from="1632632642255" duration="59000" />
       <workItem from="1632632722513" duration="7254000" />
       <workItem from="1632768040526" duration="123000" />
+      <workItem from="1632768177959" duration="355000" />
+      <workItem from="1632813249342" duration="2195000" />
+      <workItem from="1632815475291" duration="2000" />
+      <workItem from="1632815498732" duration="1301000" />
+      <workItem from="1632816871597" duration="7576000" />
     </task>
     <servers />
   </component>
