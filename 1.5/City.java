@@ -17,9 +17,16 @@ public class City {
     }
 
     public void setRoads(Road ... roads){
-        for (Road r: roads)
+        Road bufRoads 
+
+        for (Road r: roads){
             if ((r.getCity(1) != this && r.getCity(2) != this) || r == null)
                 throw new IllegalArgumentException("City is not valid");
+            for (Road a: this.roads){
+
+            }
+        }
+
 
         this.roads = Arrays.copyOf(roads, roads.length);
     }
