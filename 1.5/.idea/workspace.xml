@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../1.1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polyline.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polyline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Time.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -94,6 +105,9 @@
       <workItem from="1632815498732" duration="1301000" />
       <workItem from="1632816871597" duration="8803000" />
       <workItem from="1632846408173" duration="141000" />
+      <workItem from="1633023041254" duration="1032000" />
+      <workItem from="1633026599109" duration="3018000" />
+      <workItem from="1633065039619" duration="7933000" />
     </task>
     <servers />
   </component>

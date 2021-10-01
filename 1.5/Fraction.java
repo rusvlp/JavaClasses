@@ -1,12 +1,24 @@
 package com.company;
 
-public class Fraction {
-    int num;
-    int den;
+import static java.lang.Math.abs;
+
+public final class Fraction {
+    private final int num;
+    private final int den;
 
     public Fraction(int num, int den){
+        if (den == 0)
+            throw new IllegalArgumentException(den + " must be not equal to zero");
+        if (den < 0) {
+            num = -num;
+            den = -den;
+        }
         this.num = num;
         this.den = den;
+    }
+
+    public Fraction(int num){
+        this(num, 1);
     }
 
     public Fraction add(Fraction f){

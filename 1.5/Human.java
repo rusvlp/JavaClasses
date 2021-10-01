@@ -15,10 +15,7 @@ public class Human {
 
     public Human(Name name, int height, String sex){
         this(name, sex);
-        if (height > 0)
-            this.height = height;
-        else
-            throw new IllegalArgumentException(height + " is not a legal argument");
+        setHeight(height);
     }
 
     public Human(Name name, int height, String sex, Human father){
@@ -56,7 +53,7 @@ public class Human {
     }
 
     public void setHeight(int height) {
-        if (height > 0)
+        if (height > 0 && height <= 500)
             this.height = height;
         else
             throw new IllegalArgumentException(height + " is not a legal argument");
@@ -70,14 +67,14 @@ public class Human {
         return this.height;
     }
 
-    public void setFather(Human father) {
+    private void setFather(Human father) {
         if (father.sex.charAt(0) == 'm'){
             this.father = father;
-            if (this.name.last == null) this.name.last = father.name.last;
-            if (this.name.mid == null){
-                if (this.sex.charAt(0) == 'm') this.name.mid = father.name.first + "ович";
-                else if (this.sex.charAt(0) == 'f') this.name.mid = father.name.first + "овна";
-                else this.name.mid = father.name.first + "овно";
+            if (this.name.getLast() == null) this.name = new Name(this.name.first, father.name.getLast(), this.name.getMid());
+            if (this.name.getMid() == null){
+                if (this.sex.charAt(0) == 'm') this.name = new Name(this.name.first, this.name.getLast(), father.name.first + "ович");
+                else if (this.sex.charAt(0) == 'f') this.name = new Name(this.name.first, this.name.getLast(), father.name.first + "овна");
+                else this.name = new Name(this.name.first, this.name.getLast(), father.name.first + "овно");
             }
         } else
             throw new IllegalArgumentException("Father must be a male");
@@ -86,6 +83,10 @@ public class Human {
 
     public Human getFather(){
         return this.father;
+    }
+
+    public Name getName(){
+        return this.name;
     }
 
     @Override

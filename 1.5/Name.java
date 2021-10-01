@@ -1,9 +1,9 @@
 package com.company;
 
 public class Name {
-    String first;
-    String last;
-    String mid;
+    public final String first;
+    private String last;
+    private String mid;
 
     public Name(String first){
         this.first = first;
@@ -17,6 +17,14 @@ public class Name {
     public Name(String first, String last, String mid){
         this(first, last);
         this.mid = mid;
+    }
+
+    public String getLast(){
+        return this.last;
+    }
+
+    public String getMid(){
+        return this.mid;
     }
 
     public String toString(){

@@ -16,6 +16,16 @@ public class Polyline {
         return new Line(points.get(0), points.get(points.size()-1));
     }
 
+    public int lengthLine(){
+        int sumLine = 0;
+
+        for (int i = 0; i<points.size()-1; i++){
+            sumLine+= (new Line(points.get(i), points.get(i+1))).length();
+        }
+
+        return sumLine;
+    }
+
     public String toString(){
         String res = "Polyline: ";
         for (Point p: points) res+= p + ", ";

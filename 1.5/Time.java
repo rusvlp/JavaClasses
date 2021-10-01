@@ -1,14 +1,25 @@
 package com.company;
 
 public class Time {
-    int sec;
+    private int sec;
 
     public Time(int sec){
-        this.sec = sec;
+        setSec(sec);
     }
 
     public Time(int h, int m, int s){
         this(h*3600 + m * 60 + s);
+    }
+
+    public void setSec(int sec){
+        if (sec > 0 && sec < 24 * 3600)
+            this.sec = sec;
+        else
+            throw new IllegalArgumentException(sec + " is not a legal argument");
+    }
+
+    public int getAbsSec(){
+        return this.sec;
     }
 
     public int getSec(){
@@ -20,10 +31,10 @@ public class Time {
     }
 
     public int getHrs(){
-        return (sec / 3600) % 24;
+        return sec / 3600;
     }
 
     public String toString(){
-        return (sec / 3600) % 24 + ":" + (sec / 60) % 60  + ":" + sec % 60;
+        return sec / 3600 + ":" + (sec / 60) % 60  + ":" + sec % 60;
     }
 }

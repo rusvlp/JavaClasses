@@ -3,10 +3,14 @@ package com.company;
 public class Song {
     String name;
     String[] coAuthors;
-    Album album;
+    final Album album;
 
-    public Song(String name){
+    public Song(String name, Album alb){
         this.name = name;
+        this.album = alb;
+
+        alb.addSong(this);
+
     }
 
     private String coAuthSt(){

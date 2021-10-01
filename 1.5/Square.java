@@ -8,10 +8,24 @@ public class Square {
     private int len;
 
     public Square(Point f, int len){
+        setSquare(f, len);
+    }
+
+    public void setSquare(Point f, int len){
         this.first = f;
-        this.second = new Point(f.x + len, f.y);
-        this.third = new Point(f.x + len, f.y + len);
-        this.fourth = new Point(f.x, f.y + len);
+        setSize(len);
+    }
+
+    public void setSize(int newlen){
+        if (newlen<0)
+            throw new IllegalArgumentException(newlen + " is not a legal argument");;
+        this.second = new Point(this.first.x + len, this.first.y);
+        this.third = new Point(this.first.x + len, this.first.y + len);
+        this.fourth = new Point(this.first.x, this.first.y + len);
+    }
+
+    public int getSize(){
+        return len;
     }
 
     public Polyline toPolyline(){
