@@ -1,39 +1,44 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class City {
     public String name;
-    private Road[] roads;
+    private List<Road>  roads = new ArrayList<>();
 
 
     public City(String name){
         this.name = name;
     }
 
-    public City(String name, Road[] rs){
+    public City(String name, Road ... rs){
         this(name);
         setUnknownRoads(rs);
     }
 
-    public void setRoads(Road ... roads){
-        Road bufRoads 
+    public void addRoads(Road ... rs){
+        boolean flag = true;
 
-        for (Road r: roads){
-            if ((r.getCity(1) != this && r.getCity(2) != this) || r == null)
-                throw new IllegalArgumentException("City is not valid");
-            for (Road a: this.roads){
-
+        for (Road r: rs){
+            for (Road r1: this.roads){
+                if (r1.compareTo(r)){
+                    flag = false;
+                    break;
+                }
             }
+            if ((r.getCity(1) == this || r.getCity(2) == this) && flag)
+                roads.add(r);
+            else
+                throw new IllegalArgumentException("City is not legal");
         }
-
-
-        this.roads = Arrays.copyOf(roads, roads.length);
     }
 
-    public Road[] getRoads(){
-        return Arrays.copyOf(roads, roads.length);
+    public List<Road> getRoads(){
+       return new ArrayList<>(this.roads);
     }
+
 
     private String roadsString(){
         String res = "";
@@ -45,7 +50,7 @@ public class City {
         return res;
     }
 
-    public void setUnknownRoads(Road[] roads){
+    public void setUnknownRoads(Road ... roads){
         Road[] toSet = new Road[roads.length];
         int countOfLegalRoads = 0;
 
@@ -54,7 +59,7 @@ public class City {
                 toSet[countOfLegalRoads++] = r;
         }
 
-        setRoads(Arrays.copyOf(toSet, countOfLegalRoads));
+        addRoads(Arrays.copyOf(toSet, countOfLegalRoads));
 
     }
 

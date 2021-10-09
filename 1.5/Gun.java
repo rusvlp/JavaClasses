@@ -50,6 +50,5 @@ public class Gun {
         }
         else
             System.out.println("Клац!");
-
     }
 }

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Arrays;
 
 public class PublicationBuilder {
-    Publication pub = new Publication();
+   /* Publication pub = new Publication();
 
     public PublicationBuilder(){}
 
@@ -46,5 +46,5 @@ public class PublicationBuilder {
 
     public Publication getPub() {
         return pub;
-    }
+    } */
 }

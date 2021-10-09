@@ -1,5 +1,6 @@
 package com.company;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,13 +9,22 @@ import java.util.List;
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable{
 
-     ClosedLine cl = new ClosedLine(new Point(1, 2), new Point(4, 3), new Point(5, 5));
-     Polyline pl = new Polyline(new Point(1, 2), new Point(4, 3), new Point(5, 5));
+        FixedMax fm = new FixedMax(100);
+        FixedMax fm2 = new FixedMax(5);
+        fm2.add(55, 28, 33);
 
-     System.out.println(cl.lengthLine());
-     System.out.println(pl.lengthLine());
+        UnchangeableList ul = new UnchangeableList(1, 2, 3, 4, 5);
+
+        fm.add(ul);
+        fm.insert(1, fm2);
+        System.out.println(fm);
+        fm.remove(1);
+        System.out.println(fm);
+
+
+
     }
 
 

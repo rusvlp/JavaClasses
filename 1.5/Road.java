@@ -40,6 +40,13 @@ public class Road {
             throw new IllegalArgumentException("Received argument(s) is not a legal");
     }
 
+    public boolean compareTo(Road r){
+        if ((r.first == this.first && r.second == this.second) || (r.first == this.second && r.second == this.first))
+            return true;
+        else
+            return false;
+    }
+
     public City getCity(int ind){
         if (ind == 1) return first;
         else if (ind == 2) return second;
