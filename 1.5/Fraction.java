@@ -2,7 +2,7 @@ package com.company;
 
 import static java.lang.Math.abs;
 
-public final class Fraction {
+public final class Fraction extends Number {
     private final int num;
     private final int den;
 
@@ -35,6 +35,26 @@ public final class Fraction {
 
     public Fraction divide(Fraction f){
         return new Fraction(this.num * f.den, f.num * this.den);
+    }
+
+    @Override
+    public int intValue(){
+        return num/den;
+    }
+
+    @Override
+    public long longValue(){
+        return ((long)(num/den));
+    }
+
+    @Override
+    public float floatValue(){
+        return (float)num/(float)den;
+    }
+
+    @Override
+    public double doubleValue(){
+        return (double)num/(double)den;
     }
 
     public String toString(){

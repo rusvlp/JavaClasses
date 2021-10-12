@@ -1,6 +1,6 @@
 package com.company;
 
-public class AssaultRifle extends Gun{
+public class AssaultRifle extends Weapon {
     private int rateOfFire;
 
     public AssaultRifle(){
@@ -12,7 +12,7 @@ public class AssaultRifle extends Gun{
     }
 
     public AssaultRifle(int maxAmmo, int rateOfFire){
-        super(maxAmmo);
+        super(maxAmmo, maxAmmo);
         setRateOfFire(rateOfFire);
 
     }
@@ -30,13 +30,26 @@ public class AssaultRifle extends Gun{
 
     @Override
     public void shoot(){
-        this.shoot(1);
+        String toSout = "";
+
+        for (int i = 0; i<rateOfFire; i++){
+
+
+
+            if (this.getAmmo() > 0){
+                toSout+= "та-";
+                this.unload(1);
+            } else
+                toSout+="клац-";
+        }
+
+        toSout += "\b";
+        System.out.println(toSout);
     }
 
     public void shoot(int seconds){
         for (int i = 0; i<seconds; i++)
-            for (int j = 0; j<this.rateOfFire; j++)
-                super.shoot();
+            this.shoot();
 
     }
 }
