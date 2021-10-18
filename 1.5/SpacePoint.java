@@ -1,6 +1,8 @@
 package com.company;
 
-public class SpacePoint extends Point{
+import com.company.geometry.Point;
+
+public class SpacePoint extends Point {
     public int z;
 
     public SpacePoint(int x, int y, int z){

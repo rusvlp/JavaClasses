@@ -57,6 +57,23 @@ public final class Fraction extends Number {
         return (double)num/(double)den;
     }
 
+    @Override
+    public int hashCode(){
+        return den+num;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if (o == null || this.getClass() != o.getClass())
+            return false;
+
+        if (this == o)
+            return true;
+
+        return (this.num == ((Fraction) o).num && this.den == ((Fraction)o).num);
+
+    }
+
     public String toString(){
         return num + "/" + den;
     }

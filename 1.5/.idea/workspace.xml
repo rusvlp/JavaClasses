@@ -2,16 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/animals/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructures/DeepList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssaultRifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/AssaultRifle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClosedLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuckoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Cuckoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/DeptsAndWorkers/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/FixedMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pistol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImprovedCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/ImprovedCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImprovedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImprovedPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polyline.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Polyline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpacePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpacePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Sparrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnchangeableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/UnchangeableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/DeptsAndWorkers/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/AssaultRifle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/AssaultRifle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/ClosedLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/DeepList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/FixedMax.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Gun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/ImprovedCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/ImprovedPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/ImprovedPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Polyline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Road.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/SpacePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/SpacePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Sparrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/UnchangeableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Vika.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +63,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,6 +78,11 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yMuQOG191sNke3aaVtZjYERZnc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,17 +99,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="1.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.dataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +154,11 @@
       <workItem from="1633205463621" duration="4103000" />
       <workItem from="1633439446379" duration="14414000" />
       <workItem from="1633930977509" duration="5198000" />
+      <workItem from="1634015916530" duration="268000" />
+      <workItem from="1634016204151" duration="25782000" />
+      <workItem from="1634146785866" duration="5731000" />
+      <workItem from="1634189985045" duration="18059000" />
+      <workItem from="1634314265969" duration="8133000" />
     </task>
     <servers />
   </component>
@@ -121,5 +176,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/1_5$Main.ic" NAME="Main Coverage Results" MODIFIED="1634016134419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
   </component>
 </project>

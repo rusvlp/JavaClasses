@@ -1,9 +1,10 @@
 package com.company;
 
 public class ImprovedPoint {
-    private int[] arr;
+    private Object[] arr;
 
-    public ImprovedPoint(int ... arr){
+    public ImprovedPoint(Object ... arr){
         this.arr = arr;
     }
+
 }
