@@ -3,7 +3,7 @@ package com.company.geometry;
 import com.company.geometry.Measurable;
 import com.company.geometry.Point;
 
-public class Line implements Measurable {
+public class Line implements Measurable, Cloneable{
     Point start;
     Point end;
 
@@ -36,6 +36,11 @@ public class Line implements Measurable {
             return true;
 
         return false;
+    }
+
+    @Override
+    public Object clone(){
+        return new Line((Point)this.start.clone(), (Point)this.end.clone());
     }
 
     public String toString(){

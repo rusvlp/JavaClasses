@@ -19,7 +19,8 @@ public class DeepList<E>{
     // Override
 
 
-
+    private LinkedList ll;
+    private ArrayList al;
     private List list;
 
     /**
@@ -74,7 +75,7 @@ public class DeepList<E>{
       if (cl == ArrayList.class)
           list = new ArrayList<E>();
       else if(cl == LinkedList.class)
-          list = new LinkedList<E>;
+          list = new LinkedList<E>();
       else
           throw new IllegalArgumentException("Accepted class must be LinkedList or ArrayList");
 

@@ -1,6 +1,8 @@
 package com.company.geometry;
 
-public class Point {
+import java.util.Collection;
+
+public class Point implements Cloneable{
     public int x;
     public int y;
 
@@ -23,6 +25,11 @@ public class Point {
             return true;
 
         return  ( ((Point)o).x == this.x && ((Point)o).y == this.y);
+    }
+
+    @Override
+    public Object clone(){
+        return new Point(this.x, this.y);
     }
 
     public String toString(){
