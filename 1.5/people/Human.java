@@ -20,36 +20,33 @@ public class Human {
 
     public Human(Name name, int height, String sex, Human father){
         this(name, height, sex);
-        setFather(father);
+       // setFather(father);
     }
 
     public Human(String first, String last, String mid, int height, String sex){
-        this(new Name(first, last, mid), height, sex);
+
     }
 
     public Human(String first, String last, int height, String sex){
-        this(new Name(first, last), height, sex);
+
     }
 
     public Human(String first, int height, String sex){
-        this(new Name(first), height, sex);
+
     }
 
     public Human(String first, int height, String sex, Human father){
-        this(new Name(first), height, sex);
-        setFather(father);
+        //setFather(father);
     }
 
     public Human(String first, String last, String mid, String sex){
-        this(new Name(first, last, mid), sex);
     }
 
     public Human(String first, String last,  String sex){
-        this(new Name(first, last), sex);
+
     }
 
     public Human(String first, String sex){
-        this(new Name(first), sex);
     }
 
     public void setHeight(int height) {
@@ -67,7 +64,7 @@ public class Human {
         return this.height;
     }
 
-    private void setFather(Human father) {
+   /* private void setFather(Human father) {
         if (father.sex.charAt(0) == 'm'){
             this.father = father;
             if (this.name.getLast() == null) this.name = new Name(this.name.first, father.name.getLast(), this.name.getMid());
@@ -79,7 +76,7 @@ public class Human {
         } else
             throw new IllegalArgumentException("Father must be a male");
 
-    }
+    }*/
 
     public Human getFather(){
         return this.father;

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class City {
     public String name;
-    private List<Road>  roads = new ArrayList<>();
+    List<Road>  roads = new ArrayList<>();
 
 
     public City(String name){
@@ -63,7 +63,35 @@ public class City {
 
     }
 
+    @Override
+    public int hashCode(){
+        int res = 0;
+        for (Road r: roads)
+            res+=r.hashCode();
 
+        return res;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj == null)
+            return false;
+        if (!(obj instanceof City))
+            return false;
+        if (obj == this)
+            return true;
+
+        City toCompare = (City)obj;
+
+        if (toCompare.roads.size() != this.roads.size())
+            return false;
+
+        for (int i = 0; i<this.roads.size(); i++){
+            if (this.roads.get(i).equals(toCompare.roads.get(i)) == false)
+                return false;
+        }
+        return true;
+    }
 
     public String toString(){
         return name + " roads:\n" + roadsString();

@@ -24,12 +24,26 @@ public class Point implements Cloneable{
         if (this == o)
             return true;
 
-        return  ( ((Point)o).x == this.x && ((Point)o).y == this.y);
+
+
+        if ( ((Point)o).x == this.x && ((Point)o).y == this.y)
+            return true;
+        else
+            return false;
+    }
+
+    public void offset(Coordinates cs, int value){
+         if (cs == Coordinates.x)
+             x+=value;
+         if(cs == Coordinates.y)
+             y+=value;
+         if (cs == Coordinates.z)
+             throw new IllegalArgumentException();
     }
 
     @Override
-    public Object clone(){
-        return new Point(this.x, this.y);
+    public Point clone() throws CloneNotSupportedException{
+        return (Point) super.clone();
     }
 
     public String toString(){

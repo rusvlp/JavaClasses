@@ -3,7 +3,7 @@ package com.company.dataStructures;
 import java.util.Arrays;
 
 public class FixedMax extends UnchangeableList {
-    private int length = 0;
+   /* private int length = 0;
 
     public FixedMax() {
         super(new int[100]);
@@ -100,5 +100,5 @@ public class FixedMax extends UnchangeableList {
             toRet+=this.getValue(i) + ", ";
         toRet+="\b\b]";
         return toRet;
-    }
+    } */
 }

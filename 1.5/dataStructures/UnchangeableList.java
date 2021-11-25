@@ -1,52 +1,55 @@
 package com.company.dataStructures;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Arrays;
 
-public class UnchangeableList {
-    private int[] data;
+public class UnchangeableList<T> {
+    private List<T> data;
 
-    public UnchangeableList(UnchangeableList l){
-        this(l.getData());
-    }
-
-    public UnchangeableList(int ... arr){
+    public UnchangeableList(UnchangeableList c){
+        T[] arr = (T[])c.data.toArray();
         setData(arr);
     }
 
-    public void setData(int ... arr){
-        data = Arrays.copyOf(arr, arr.length);
+    public UnchangeableList(T ... arr){
+        setData(arr);
     }
 
-    public int getValue(int index){
-        if (index < 0 || index > this.data.length)
+    public void setData(T ... arr){
+        data = new ArrayList<T>(Arrays.asList(arr));
+    }
+
+    public T getValue(int index){
+        if (index < 0 || index > this.data.size())
             throw new ArrayIndexOutOfBoundsException(index + " is not legal argument");
-        return this.data[index];
+        return this.data.get(index);
     }
 
-    public int[] getData(){
-        return Arrays.copyOf(this.data, this.data.length);
+    public List<T> getData(){
+        return new ArrayList<T>(data);
     }
 
     public boolean isEmpty(){
-        if (this.data.length == 0)
+        if (this.data.size() == 0)
             return true;
         else
             return false;
     }
 
-    public void replace(int value, int index){
-        if (index < 0 || index > this.data.length-1)
+    public void replace(T value, int index){
+        if (index < 0 || index > this.data.size()-1)
             throw new ArrayIndexOutOfBoundsException(index + " is not legal argument");
-        this.data[index] = value;
+        this.data.set(index, value);
     }
 
     public int getSize(){
-        return this.data.length;
+        return this.data.size();
     }
 
     public String toString(){
         String toRet = "[";
-        for (int i: this.data)
+        for (T i: this.data)
             toRet += i + ", ";
         toRet += "\b\b]";
         return toRet;

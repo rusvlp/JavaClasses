@@ -53,6 +53,23 @@ public class Road {
         else throw new IllegalArgumentException("Received argument is not legal");
     }
 
+    @Override
+    public int hashCode(){
+        return this.price;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj == null)
+            return false;
+        if (!(obj instanceof Road))
+            return false;
+        if (obj == this)
+            return true;
+
+        return (((Road)obj).first == this.first && ((Road)obj).second == this.second) || (((Road)obj).first == this.second && ((Road)obj).second == this.first);
+    }
+
     public String toString(){
         return "Road from " + first.name + " to " + second.name + ", price: " + price;
     }

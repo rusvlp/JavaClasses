@@ -1,6 +1,6 @@
 package com.company.geometry;
 
-public abstract class Figure{
+public abstract class Figure implements Moveable{
     Point start;
 
     public Figure(Point p){
@@ -12,5 +12,9 @@ public abstract class Figure{
     }
 
     public abstract int getSquare();
+
+    public void offset(Coordinates cs, int value){
+        start.offset(cs, value);
+    }
 
 }

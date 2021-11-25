@@ -1,24 +1,54 @@
 package com.company.geometry;
 
 import com.company.geometry.Measurable;
-import com.company.geometry.Point;
+import com.company.geometry.*;
 
-public class Line implements Measurable, Cloneable{
-    Point start;
-    Point end;
+public class Line<T extends Point> implements Measurable, Cloneable{
+    public T start;
+    public T end;
 
-    public Line(Point start, Point end){
-        this.start = start;
-        this.end = end;
+    Line(){}
+
+    public Line(T start, T end){
+        setPoint(1, start);
+        setPoint(2, end);
     }
 
-    public Line (int xs, int ys, int xe, int ye){
-        this(new Point(xs, ys), new Point(xe, ye));
-    }
+    //public Line (int xs, int ys, int xe, int ye){
+    //    this(new T(xs, ys), new T(xe, ye));
+   // }
 
+
+    public void setPoint (int index, T point){
+        if (index <= 0 && index > 2) throw new IllegalArgumentException(index + " is not a legal argument");
+        if (index == 1){
+            if (point.getClass() != end.getClass()) throw new IllegalArgumentException(point + ": class of accepted point does not match class of contained point");
+            this.start = point;
+            return;
+        }
+        if (index == 2){
+            if (point.getClass() != start.getClass()) throw new IllegalArgumentException(point + ": class of accepted point does not match class of contained point");
+            this.end = point;
+            return;
+        }
+    }
     public int length(){
         return (int)Math.sqrt((end.x-start.x) * (end.x-start.x) + (end.y-start.y) * (end.y-start.y));
     }
+
+    public static class Builder<T extends Point>{
+        Line<T> l;
+
+        public Builder setStart(T start){
+            if (l == null) l = new Line<T>();
+            else if (l.end != null)
+            l.start = start;
+            return this;
+        }
+
+    }
+
+
 
     @Override
     public int hashCode(){
@@ -34,13 +64,15 @@ public class Line implements Measurable, Cloneable{
 
         if (this.start.x == ((Line)obj).start.x && this.start.y == ((Line)obj).start.y && this.end.x == ((Line)obj).end.x && this.end.y == ((Line)obj).end.y)
             return true;
-
         return false;
     }
 
     @Override
-    public Object clone(){
-        return new Line((Point)this.start.clone(), (Point)this.end.clone());
+    public Line clone() throws CloneNotSupportedException{
+        Line l = (Line)super.clone();
+        l.start = this.start.clone();
+        l.end = this.end.clone();
+        return l;
     }
 
     public String toString(){

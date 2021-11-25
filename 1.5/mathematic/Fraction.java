@@ -1,6 +1,7 @@
 package com.company.mathematic;
 
 import static java.lang.Math.abs;
+import static java.lang.Math.decrementExact;
 
 public final class Fraction extends Number implements Cloneable{
     private final int num;
@@ -70,13 +71,15 @@ public final class Fraction extends Number implements Cloneable{
         if (this == o)
             return true;
 
-        return (this.num == ((Fraction) o).num && this.den == ((Fraction)o).num);
+        if (this.num == ((Fraction) o).num && this.den == ((Fraction)o).num)
+            return true;
+        else return false;
 
     }
 
     @Override
-    public Object clone(){
-        return new Fraction(this.num, this.den);
+    public Fraction clone() throws CloneNotSupportedException{
+        return (Fraction) super.clone();
     }
 
     public String toString(){

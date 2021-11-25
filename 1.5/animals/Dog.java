@@ -1,6 +1,6 @@
 package com.company.animals;
 
-public class Dog extends Animal {
+public class Dog extends Animal implements Woofable{
     public Dog(String name){
         this.name = name;
     }
@@ -21,5 +21,14 @@ public class Dog extends Animal {
 
     public String toString(){
         return "Собака: " + this.name;
+    }
+
+    public void woof(){
+        getSound();
+    }
+
+    public void woof(int count){
+        for (int i = 0; i<count; i++)
+            getSound();
     }
 }

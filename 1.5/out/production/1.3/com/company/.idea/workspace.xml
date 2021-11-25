@@ -2,61 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/songsAndAlbums/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathematic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssaultRifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/shooting/AssaultRifle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BirdMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/BirdMarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/publication/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeptsAndWorkers/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/deptsAndWorkers/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeptsAndWorkers/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/deptsAndWorkers/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathematic/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiThreading/HelloThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/houses/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImprovedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/ImprovedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/MarkBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pistol.java" beforeDir="false" afterPath="$PROJECT_DIR$/shooting/Pistol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/publication/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/publication/PublicationBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shootable.java" beforeDir="false" afterPath="$PROJECT_DIR$/shooting/Shootable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shooting/Shooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/songsAndAlbums/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpacePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/SpacePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/time/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimeZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/time/TimeZone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/shooting/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/DeepList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/DeepList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/FixedMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/FixedMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/UnchangeableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/UnchangeableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry/SpacePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/SpacePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematic/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathematic/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/AssaultRifle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/BirdMarket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Fraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/HelloThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/ImprovedPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/MarkBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Note.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Pistol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Publication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/PublicationBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Shootable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Shooter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/SpacePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/TimeZone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/cities/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/cities/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/cities/Road.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/cities/Road.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/SpacePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/SpacePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/learning/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/learning/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/main/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/mathematic/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/mathematic/Fraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/people/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/people/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/people/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/people/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/songsAndAlbums/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/songsAndAlbums/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songsAndAlbums/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/songsAndAlbums/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -160,7 +137,8 @@
       <workItem from="1634635166482" duration="60000" />
       <workItem from="1634635230234" duration="698000" />
       <workItem from="1634736255555" duration="1662000" />
-      <workItem from="1634908284340" duration="361000" />
+      <workItem from="1634908284340" duration="8096000" />
+      <workItem from="1636453465117" duration="42646000" />
     </task>
     <servers />
   </component>

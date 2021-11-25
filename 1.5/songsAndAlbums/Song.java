@@ -1,6 +1,7 @@
 package com.company.songsAndAlbums;
 
 import com.company.songsAndAlbums.Album;
+import java.util.ArrayList;
 
 public class Song {
     String name;
@@ -10,10 +11,20 @@ public class Song {
     public Song(String name, Album alb){
         this.name = name;
         this.album = alb;
+        alb.addSong(this);
+
+    }
+
+    public void changeAlbum(Album alb){
+
+        album.tracks.remove(this);
+        this.album = alb;
 
         for (Song s: alb.tracks)
             if (s == this) return;
-        alb.addSong(this);
+
+
+        alb.tracks.add(this);
 
     }
 

@@ -1,7 +1,7 @@
 package com.company.animals;
 
 public abstract class Animal {
-    String name;
+    protected String name;
 
     public abstract void getSound();
 
