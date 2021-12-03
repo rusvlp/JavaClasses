@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaba7339-b7b9-447b-9213-a05c4e19548e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cities/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cities/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/cities/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/FixedMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/FixedMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/UnchangeableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/UnchangeableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometry/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometry/SpacePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/geometry/SpacePoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematic/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathematic/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/animals/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/animals/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/animals/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/cities/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/cities/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/cities/Road.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/cities/Road.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/dataStructures/FixedMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/dataStructures/FixedMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/dataStructures/UnchangeableList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/dataStructures/UnchangeableList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Figure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/SpacePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/geometry/SpacePoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/learning/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/learning/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/mathematic/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/mathematic/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/people/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/people/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/people/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/people/Name.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1.3/com/company/songsAndAlbums/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/com/company/songsAndAlbums/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/people/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/songsAndAlbums/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/songsAndAlbums/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +35,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/UnaryOperator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/ToLongBiFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/ObjIntConsumer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/Predicate.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/Consumer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/Supplier.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17/lib/src.zip!/java.base/java/util/function/ToLongFunction.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1yMuQOG191sNke3aaVtZjYERZnc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -85,7 +65,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
       <module name="1.3" />
@@ -145,6 +125,8 @@
       <workItem from="1634908284340" duration="8096000" />
       <workItem from="1636453465117" duration="42646000" />
       <workItem from="1637567709671" duration="22675000" />
+      <workItem from="1637853047617" duration="116000" />
+      <workItem from="1637853182209" duration="11440000" />
     </task>
     <servers />
   </component>

@@ -6,20 +6,66 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Deque;
 
+import java.util.stream.*;
 public class Student implements MyComparable<Student>, Comparable<Student>{
     private String name;
     private List<Integer> notes = new ArrayList<>();
     private Predicate<Integer> filter;
     private Deque<Undoable> undoableList = new LinkedList<>();
-
+    public List<Parent> pars = new ArrayList<>();
 
     public Student(String name, Predicate<Integer> filter){
         this.name = name;
         this.filter = filter;
     }
 
+    public Student(String name, Predicate<Integer> fltr, Integer ... notes){
+        this(name, fltr);
+        this.addNotes(notes);
+
+    }
+
+    public Predicate<Integer> getPredicate(){
+        return filter;
+    }
 
 
+    /*public static class Saver{
+        private ArrayList<Saveable> saves = new ArrayList<>();
+
+        public void save(Student st){
+            String tmpName = st.name;
+            ArrayList<Integer> tmpNotes = new ArrayList<>(st.notes);
+
+            saves.add(() -> {st.name = tmpName; st.notes = tmpNotes;});
+        }
+
+        public void restore(int index){
+            if (index < 0 || index > saves.size()-1)
+                throw new IllegalArgumentException("save does not exist");
+            saves.get(index).restore();
+        }
+    }*/
+
+    public Saveable save(){
+        String tmpName = this.name;
+        List<Integer> tmpNotes = new ArrayList<>(this.notes);
+        Predicate<Integer> tmpPredicate = this.filter;
+
+        Saveable s = new Saveable() {
+           @Override
+           public void restore() {
+                Student.this.filter = tmpPredicate;
+                Student.this.name = tmpName;
+                Student.this.notes = tmpNotes;
+           }
+       };
+       return s;
+    }
+
+    public void restore(Saveable s){
+        s.restore();
+    }
 
     public void setName(String name){
         String tmp = this.name;
@@ -32,11 +78,7 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
         return this;
     }
 
-    public Student(String name, Predicate<Integer> fltr, Integer ... notes){
-        this(name, fltr);
-        this.addNotes(notes);
 
-    }
 
     public void removeNote(int index){
         List<Integer> tmp = new ArrayList<>(this.notes);
@@ -46,12 +88,20 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
         undoableList.push(()->{this.notes = tmp;});
     }
 
+    public void startObserve(Parent... par){
+        for (Parent p: par) this.pars.add(p);
+    }
+
     public void addNotes(Integer ... notes) {
         List<Integer> tmp = new ArrayList<>(this.notes);
        for (Integer n: notes){
            if (!filter.filter(n) || filter == null) throw new IllegalArgumentException();
+           for (Parent par: pars)
+               if (par!=null)par.checkNote(n, this.filter);
            this.notes.add(n);
        }
+
+
 
        undoableList.push(()->{this.notes = tmp;});
 
@@ -61,9 +111,7 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
         return this.name;
     }
 
-    public List<Integer> getNotes(){
-        return
-    }
+
 
     public List<Integer> getNotes(){
         return new ArrayList<>(this.notes);
