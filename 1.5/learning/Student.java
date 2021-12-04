@@ -7,25 +7,25 @@ import java.util.ArrayList;
 import java.util.Deque;
 
 import java.util.stream.*;
-public class Student implements MyComparable<Student>, Comparable<Student>{
+public class Student<T extends AbstractNote> implements MyComparable<Student>, Comparable<Student>{
     private String name;
-    private List<Integer> notes = new ArrayList<>();
-    private Predicate<Integer> filter;
+    private List<T> notes = new ArrayList<>();
+    private Predicate<T> filter;
     private Deque<Undoable> undoableList = new LinkedList<>();
     public List<Parent> pars = new ArrayList<>();
 
-    public Student(String name, Predicate<Integer> filter){
+    public Student(String name, Predicate<T> filter){
         this.name = name;
         this.filter = filter;
     }
 
-    public Student(String name, Predicate<Integer> fltr, Integer ... notes){
+    public Student(String name, Predicate<T> fltr, T ... notes){
         this(name, fltr);
         this.addNotes(notes);
 
     }
 
-    public Predicate<Integer> getPredicate(){
+    public Predicate<T> getPredicate(){
         return filter;
     }
 
@@ -49,8 +49,8 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
 
     public Saveable save(){
         String tmpName = this.name;
-        List<Integer> tmpNotes = new ArrayList<>(this.notes);
-        Predicate<Integer> tmpPredicate = this.filter;
+        List<T> tmpNotes = new ArrayList<>(this.notes);
+        Predicate<T> tmpPredicate = this.filter;
 
         Saveable s = new Saveable() {
            @Override
@@ -81,7 +81,7 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
 
 
     public void removeNote(int index){
-        List<Integer> tmp = new ArrayList<>(this.notes);
+        List<T> tmp = new ArrayList<>(this.notes);
         if (index < 0 && index > this.notes.size()-1) throw new IllegalArgumentException(new IndexOutOfBoundsException());
         this.notes.remove(index);
 
@@ -92,9 +92,9 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
         for (Parent p: par) this.pars.add(p);
     }
 
-    public void addNotes(Integer ... notes) {
-        List<Integer> tmp = new ArrayList<>(this.notes);
-       for (Integer n: notes){
+    public void addNotes(T ... notes) {
+        List<T> tmp = new ArrayList<>(this.notes);
+       for (T n: notes){
            if (!filter.filter(n) || filter == null) throw new IllegalArgumentException();
            for (Parent par: pars)
                if (par!=null)par.checkNote(n, this.filter);
@@ -113,21 +113,21 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
 
 
 
-    public List<Integer> getNotes(){
+    public List<T> getNotes(){
         return new ArrayList<>(this.notes);
     }
 
     public boolean isExcellent(){
-        for (int n: notes){
-            if (n<5) return false;
+        for (T n: notes){
+            if (n.getValue()<5) return false;
         }
         return true;
     }
 
     public double average(){
-        int sum = 0;
-        for (int n: notes)
-            sum+=n;
+        double sum = 0;
+        for (T n: notes)
+            sum+=n.getValue();
         return sum / notes.size();
     }
 
@@ -145,7 +145,14 @@ public class Student implements MyComparable<Student>, Comparable<Student>{
 
     @Override
     public String toString() {
-        return  name  + ", " + notes.toString() ;
+        String notesStr = "";
+
+        for (T n: notes)
+            notesStr+= "{"+n.toString() + "}, ";
+
+        notesStr+="\b\b";
+
+        return  "Студент: " + name  + ", оценки: " + notesStr;
     }
 }
 

@@ -1,17 +1,17 @@
 package com.company.learning;
 
-public class Parent {
+public class Parent<T extends AbstractNote> {
     String name;
-    Predicate<Integer> check;
+    Predicate<T> check;
     String message;
 
-    public Parent(String name, Predicate<Integer> check, String msg){
+    public Parent(String name, Predicate<T> check, String msg){
         this.check = check;
         this.name = name;
         this.message = msg;
     }
 
-    public void checkNote(Integer n, Predicate<Integer> fltr){
+    public void checkNote(T n, Predicate<T> fltr){
         if (check.filter(n) && fltr.filter(n))
             System.out.println(this.name + ": " + this.message);
     }

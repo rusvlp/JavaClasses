@@ -1,5 +1,6 @@
 package com.company.learning;
 
+@FunctionalInterface
 public interface Predicate<T>{
-    public boolean filter(T x);
+    boolean filter(T x);
 }
